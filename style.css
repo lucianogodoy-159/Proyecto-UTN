@@ -1,5 +1,53 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./fonts/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Hanken";
+    src: url(./fonts/HankenGrotesk-Italic-VariableFont_wght.ttf);
+}
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #12131A;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F2F2F7;
+}
+
+.navbar nav img {
+    width: 52px;
+    height: 52px;
+}
+
+.setting button {
+  width: 35px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+
+.setting button img {
+  width: 75px;
+  opacity: 0.9;
 }
