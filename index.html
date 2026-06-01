@@ -8,59 +8,55 @@
 </head>
 <body>
     
+    <body>
+  <div class="wrapper">
+
     <div class="navbar">
-        <nav><img src="./assets/icon.png" alt="Icon">Character Counter</nav>
-        <div class="setting">
-            <div class="img-box">
-                <button><img src="./assets/settings.png" alt="Settings"></button>
-            </div>
-        </div>
+      <nav><img src="./assets/icon.png" alt="Icon">Character Counter</nav>
+      <div class="setting">
+        <button><img src="./assets/settings.png" alt="Settings"></button>
+      </div>
     </div>
 
-    <section class="input">  
+    <section class="input">
+      <h1>Analyze your text in real-time.</h1>
 
-        <h1>Analyze your text in real-time</h1>
+      <textarea placeholder="Design is the silent ambassador of your brand..."></textarea>
 
-        <textarea name="" id="" placeholder="Design is the silent ambassador of your brand. Simplicitty is key to effective communication, creating clarity in every interacion. Agreat design transforms complex ideas into elegant solutions, making them easy to understand. It blends aesthetiocs and functionality seamlessly."></textarea>
-        
-        <div>
-            <br><input type="checkbox" name="" id="Exclude"><label for="Exclude">Exclude Spaces</label>
-            <input type="checkbox" name="" id="Limit"><label for="Limit">Set Character Limit</label>
-            <p>Approx. reading time: < 1 minute </p>
-        </div>
+      <div>
+        <input type="checkbox" id="Exclude"><label for="Exclude">Exclude Spaces</label>
+        <input type="checkbox" id="Limit"><label for="Limit">Set Character Limit</label>
+        <p>Approx. reading time: &lt;1 minute</p>
+      </div>
 
-        <section class="stats">
-
-            <article class="card">
-                <h2 class="number">278</h2>
-                <p class="label">Total Characters</p>
-            </article>
-
-            <article class="card">
-                <h2 class="number">39</h2>
-                <p class="label">Word Count</p>
-            </article>
-
-            <article class="card">
-                <h2 class="number">04</h2>
-                <p class="label">Sentence Count</p>
-            </article>
-
-        </section>
-        
+      <section class="stats">
+        <article class="card">
+          <h2 class="number">278</h2>
+          <p class="label">Total Characters</p>
+        </article>
+        <article class="card">
+          <h2 class="number">39</h2>
+          <p class="label">Word Count</p>
+        </article>
+        <article class="card">
+          <h2 class="number">04</h2>
+          <p class="label">Sentence Count</p>
+        </article>
+      </section>
     </section>
 
-        <section class="Density">
-            <h3>Letter Density</h3>
-            <p>E</p><progress value="16.06" max="100"></progress><p>40 (16.06%)</p>
-            <p>I</p><progress value="11.65" max="100"></progress><p>29 (11.65%)</p>
-            <p>T</p><progress value="11.24" max="100"></progress><p>28 (11.24%)</p>
-            <p>O</p><progress value="8.84" max="100"></progress><p>22 (8.84%)</p>
-            <p>N</p><progress value="8.43" max="100"></progress><p>21 (8.43%)</p>
-        </section>
+    <section class="Density">
+      <h3>Letter Density</h3>
+      <div class="density-row"><p>E</p><progress value="16.06" max="100"></progress><span class="density-value">40 (16.06%)</span></div>
+      <div class="density-row"><p>I</p><progress value="11.65" max="100"></progress><span class="density-value">29 (11.65%)</span></div>
+      <div class="density-row"><p>T</p><progress value="11.24" max="100"></progress><span class="density-value">28 (11.24%)</span></div>
+      <div class="density-row"><p>O</p><progress value="8.84" max="100"></progress><span class="density-value">22 (8.84%)</span></div>
+      <div class="density-row"><p>N</p><progress value="8.43" max="100"></progress><span class="density-value">21 (8.43%)</span></div>
+    </section>
 
-            <P>See more ▼</P>
+    <p class="see-more">See more ▼</p>
 
+  </div>
 
 </body>
 </html>
