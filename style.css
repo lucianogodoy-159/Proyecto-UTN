@@ -164,9 +164,9 @@ textarea::placeholder {
   overflow: hidden;
 }
 
-.card:nth-child(1) { background-color: #c084fc; }
-.card:nth-child(2) { background-color: #f59e0b; }
-.card:nth-child(3) { background-color: #f87171; }
+.card:nth-child(1) { background-color: #C99DFF; }
+.card:nth-child(2) { background-color: #FFB21E; }
+.card:nth-child(3) { background-color: #FF8A65; }
 
 
 .card::after {
@@ -272,7 +272,25 @@ progress::-webkit-progress-value {
 }
 
 progress::-moz-progress-bar {
-  background-color: #a78bfa;
+  background-color: #D19BFF;
   border-radius: 99px;
 }
 
+.density-value {
+  font-size: 12px;
+  color: #6b7280;
+  white-space: nowrap;
+}
+
+
+.see-more {
+  font-size: 13px;
+  color: #aaaaaa;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: -8px;
+}
+
+.see-more:hover { color: #ffffff; }
