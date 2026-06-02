@@ -191,3 +191,42 @@ textarea::placeholder {
   margin-top: 6px;
   font-weight: 500;
 }
+
+.Density {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Density h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.density-row {
+  display: grid;
+  grid-template-columns: 16px 1fr auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.density-row p {
+  font-size: 13px;
+  color: #aaaaaa;
+  font-weight: 600;
+}
+
+progress {
+  width: 100%;
+  height: 6px;
+  border-radius: 99px;
+  overflow: hidden;
+  appearance: none;
+  background-color: #2e3140;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #2e3140;
+  border-radius: 99px;
+}
