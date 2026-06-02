@@ -153,3 +153,41 @@ textarea::placeholder {
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
+
+.card {
+  border-radius: 14px;
+  padding: 18px 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:nth-child(1) { background-color: #c084fc; }
+.card:nth-child(2) { background-color: #f59e0b; }
+.card:nth-child(3) { background-color: #f87171; }
+
+
+.card::after {
+  content: '+  +\A+  +';
+  white-space: pre;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  font-size: 22px;
+  color: rgba(255,255,255,0.2);
+  line-height: 1.4;
+  pointer-events: none;
+}
+
+.card .number {
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.card .label {
+  font-size: 12px;
+  color: rgba(255,255,255,0.85);
+  margin-top: 6px;
+  font-weight: 500;
+}
